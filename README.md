@@ -3,6 +3,7 @@
 Summary
 
 This is a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command: node index.js. The user will be prompted for a GitHub Username and favorite color, which will be used as the background color for cards. The PDF will be populated with the following:
+
   Profile image
   User -
     name
@@ -34,6 +35,7 @@ Built With
 
 
 Instructions
+
   After clone
     in terminal install inquirer, axios, html-pdf with npm i
   After installing npms
@@ -41,4 +43,5 @@ Instructions
     type in the requested user name
   Pdf will generate in folder as profile.pdf
 
+https://github.com/yhlee-dho/Developer-Profile-Generator/blob/master/profileGif.gif
   
