@@ -1,6 +1,6 @@
 # Developer-Profile-Generator
 
-Summary
+# Summary
 
 This is a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command: node index.js. The user will be prompted for a GitHub Username and favorite color, which will be used as the background color for cards. The PDF will be populated with the following:
 
@@ -19,7 +19,7 @@ This is a command-line application that dynamically generates a PDF profile from
 
 
 
-Built With
+# Built With
 
   Node.js - Used for package json and to run js code on terminal for server-side scripting.
   Axios - npm package installed by node used to make a request to GitHub api.
@@ -34,7 +34,7 @@ Built With
 
 
 
-Instructions
+# Instructions
 
   After clone
     in terminal install inquirer, axios, html-pdf with npm i
@@ -43,5 +43,6 @@ Instructions
     type in the requested user name
   Pdf will generate in folder as profile.pdf
 
+# Sample
 https://github.com/yhlee-dho/Developer-Profile-Generator/blob/master/profileGif.gif
   
